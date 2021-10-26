@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 
 void reverseString(char s[])
 {
@@ -15,8 +14,9 @@ void reverseString(char s[])
 
 void main(void)
 {
+	printf("Input string: ");
 	char str[100];
 	gets(str);
 	reverseString(str);
-	printf("%s", str);
+	printf("Reversed string: %s", str);
 }
