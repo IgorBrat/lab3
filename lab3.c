@@ -3,12 +3,12 @@
 
 void reverseString(char s[])
 {
-	char* a;
+	char* temp;
 	for (int i = 0, j = strlen(s) - 1; i < j; i++, j--)
 	{
-		a = s[i];
+		temp = s[i];
 		s[i] = s[j];
-		s[j] = a;
+		s[j] = temp;
 	}
 }
 
