@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void reverseString(char s[])
+void reverseString(char s[])     // function which reverses inputed string
 {
 	char* temp;
 	for (int i = 0, j = strlen(s) - 1; i < j; i++, j--)
